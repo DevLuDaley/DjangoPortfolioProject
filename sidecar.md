@@ -87,3 +87,9 @@ python3 manage.py createsuperuser
 
     add job model to admin site
          import jobs in admin.py
+
+    create super user and object from Jobs Model
+
+createsuperuser and object from Jobs Model
+
+python3 manage.py createsuperuser
