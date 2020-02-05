@@ -1,1 +1,1 @@
-python -m venv VenvDjangoPortfolio
+python3 -m venv VenvDjangoPortfolio
