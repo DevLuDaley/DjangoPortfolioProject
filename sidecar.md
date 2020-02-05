@@ -17,3 +17,7 @@ rename 'portfolio' folder to 'portfolio-project'
 cd portfolio-project
 
 python3 manage.py runserver
+
+update the TIME_ZONE = from 'UTC' to 'EST' in the settings.py file
+
+###difference between a project and an app in django
