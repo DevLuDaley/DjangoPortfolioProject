@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Job
 
-# Register your models here.
+# adding jobs to admin site/page
+admin.site.register(Job)

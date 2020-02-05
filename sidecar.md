@@ -80,3 +80,10 @@ pip3 install psycopg2-binary
 might need to change when making site live...need to figure out how I got the postgresql version in studioScheduler to work.
 
 python3 manage.py makemigrations (in porfolio-project folder)
+
+## admin
+
+python3 manage.py createsuperuser
+
+    add job model to admin site
+         import jobs in admin.py
