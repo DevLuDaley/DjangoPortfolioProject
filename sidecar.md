@@ -12,12 +12,16 @@ which python
 
 django-admin startproject portfolio
 
-rename 'portfolio' folder to 'portfolio-project'
+    rename 'portfolio' folder to 'portfolio-project'
 
 cd portfolio-project
 
 python3 manage.py runserver
 
-update the TIME_ZONE = from 'UTC' to 'EST' in the settings.py file
+    update the TIME_ZONE = from 'UTC' to 'EST' in the settings.py file
 
-###difference between a project and an app in django
+    ###difference between a project and an app in django
+
+
+
+    add 'jobs' app to 'installed-apps' in settings.py
