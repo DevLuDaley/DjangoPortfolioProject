@@ -78,3 +78,5 @@ python3 -m pip install --upgrade requests
 
 pip3 install psycopg2-binary
 might need to change when making site live...need to figure out how I got the postgresql version in studioScheduler to work.
+
+python3 manage.py makemigrations (in porfolio-project folder)
