@@ -1,2 +1,2 @@
-# PortfolioProjectDjango
+# DjangoPortfolioProject
 portfolio app
