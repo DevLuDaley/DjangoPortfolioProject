@@ -51,3 +51,30 @@ django-admin startapp jobs
 
 image needs pillow
 pip3 install pillow
+
+install postgres
+
+## postgres debugging
+
+    see what processes are currently using postgres.
+    ▶ ps aux|grep postgres
+
+/Library/PostgreSQL/12/bin/pg_ctl start -D /Library/PostgreSQL/12/data -l postgres.log
+
+postgres=# \password postgres
+Enter new password:
+Enter it again:
+postgres=# CREATE DATABASE porfoliodb;
+CREATE DATABASE
+postgres=#
+
+found postgresql settigns in studioapp project
+
+pip install --upgrade pip
+
+pip3 install psycopg2
+()if necss
+python3 -m pip install --upgrade requests
+
+pip3 install psycopg2-binary
+might need to change when making site live...need to figure out how I got the postgresql version in studioScheduler to work.
