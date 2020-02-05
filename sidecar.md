@@ -13,3 +13,7 @@ which python
 django-admin startproject portfolio
 
 rename 'portfolio' folder to 'portfolio-project'
+
+cd portfolio-project
+
+python3 manage.py runserver
