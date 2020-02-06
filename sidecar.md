@@ -132,3 +132,5 @@ use the below to display objects in django
 
     add links to buttons for email/ linkedin/ github
     test links
+
+    remove footer
