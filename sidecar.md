@@ -157,3 +157,11 @@ run collect static,to have django collect all static files and copy them to one 
 update settings.py to point to STATIC_ROOT.
 
 add load static (at the top) and image tag to home.html we had to load the static up at the top,
+
+    load up the following
+
+        Bootstrap
+        Jquery
+        PopperJs
+
+npm i @popperjs/core
