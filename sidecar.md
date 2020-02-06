@@ -167,3 +167,5 @@ add load static (at the top) and image tag to home.html we had to load the stati
 npm i @popperjs/core
 
 update js script tags at the bottom of home.html
+
+place bootstrap, popper, jquery, css in static folder then static collect/copy to static folder inside of jobs
