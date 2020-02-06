@@ -129,3 +129,6 @@ use the below to display objects in django
     (search for '' terms below)
     update 'title' tag (changes title of chrome tab)
     remove 'header' (deletes the grey bar)
+
+    add links to buttons for email/ linkedin/ github
+    test links
