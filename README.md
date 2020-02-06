@@ -1,2 +1,3 @@
 # DjangoPortfolioProject
-portfolio app
+
+A portfolio app built with django and bootstrap.

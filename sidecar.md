@@ -109,3 +109,17 @@ python3 manage.py createsuperuser
     click 'get started' view-source:https://getbootstrap.com/docs/4.4/examples/album/
 
 copy css core & js and replace in html document
+
+use the below to display objects in django
+```
+
+            <h1>All my jobs</h1>
+
+    {% for job in jobs.all %}
+
+    {{ job.summary }}
+
+   <br>
+   
+    {% endfor %}
+            ```
