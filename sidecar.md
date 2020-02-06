@@ -107,3 +107,5 @@ python3 manage.py createsuperuser
 
 
     click 'get started' view-source:https://getbootstrap.com/docs/4.4/examples/album/
+
+copy css core & js and replace in html document
