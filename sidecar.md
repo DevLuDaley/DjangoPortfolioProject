@@ -134,3 +134,7 @@ use the below to display objects in django
     test links
 
     remove footer
+
+    create static folder( in jobs) and add a photo (drag and drop)
+
+    add a static root to setting.py
