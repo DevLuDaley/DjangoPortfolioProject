@@ -100,7 +100,7 @@ python3 manage.py createsuperuser
 
 ## Bootstrap framework to make the app pretty
 
-        view-source:https://getbootstrap.com/docs/4.4/examples/album/
+        view-source:https://getbootstrap.com/docs/4.4/examples/album/#
 
         use chome 'view page source' then copy source code
         then import bootstrap libraries into django/python
@@ -111,7 +111,8 @@ python3 manage.py createsuperuser
 copy css core & js and replace in html document
 
 use the below to display objects in django
-```
+
+````
 
             <h1>All my jobs</h1>
 
@@ -120,6 +121,11 @@ use the below to display objects in django
     {{ job.summary }}
 
    <br>
-   
+
     {% endfor %}
             ```
+````
+
+    (search for '' terms below)
+    update 'title' tag (changes title of chrome tab)
+    remove 'header' (deletes the grey bar)
