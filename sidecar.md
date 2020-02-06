@@ -138,3 +138,7 @@ use the below to display objects in django
     create static folder( in jobs) and add a photo (drag and drop)
 
     add a static root to setting.py
+
+    add a static root to setting.py
+
+    import settings and static in urls.py
