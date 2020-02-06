@@ -161,7 +161,9 @@ add load static (at the top) and image tag to home.html we had to load the stati
     load up the following
 
         Bootstrap
-        Jquery
-        PopperJs
+        Jquery - https://jquery.com/download/
+        PopperJs - https://popper.js.org/ couldn't find file had to copy popper.min.js file from node.js pre-existing module
 
 npm i @popperjs/core
+
+update js script tags at the bottom of home.html
