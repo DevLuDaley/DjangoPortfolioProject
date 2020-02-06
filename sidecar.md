@@ -142,3 +142,18 @@ use the below to display objects in django
     add a static root to setting.py
 
     import settings and static in urls.py
+
+▶
+python3 manage.py collectstatic
+
+> > 131 static files copied to '/Users/LHD/Development/code/practice/practice-python/DjangoPortfolioProject/portfolio-project/static'.
+> > (VenvDjangoPortfolio)
+
+add a new folder called static
+add lu.jpg to new static folder.
+
+run collect static,to have django collect all static files and copy them to one folder.
+
+update settings.py to point to STATIC_ROOT.
+
+add load static (at the top) and image tag to home.html we had to load the static up at the top,
