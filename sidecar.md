@@ -93,3 +93,17 @@ python3 manage.py createsuperuser
 createsuperuser and object from Jobs Model
 
 python3 manage.py createsuperuser
+
+    update html page
+        SYNTAX = {%variable %}
+        i.e  {%for jobs in jobs.objects %}
+
+## Bootstrap framework to make the app pretty
+
+        view-source:https://getbootstrap.com/docs/4.4/examples/album/
+
+        use chome 'view page source' then copy source code
+        then import bootstrap libraries into django/python
+
+
+    click 'get started' view-source:https://getbootstrap.com/docs/4.4/examples/album/
