@@ -169,3 +169,20 @@ npm i @popperjs/core
 update js script tags at the bottom of home.html
 
 place bootstrap, popper, jquery, css in static folder then static collect/copy to static folder inside of jobs
+
+the below was pasted in home.html after row but before col-4
+
+on line 75
+
+```
+            <h1>All my jobs</h1>
+
+    {% for job in jobs.all %}
+
+    {{ job.summary }}
+
+   <br>
+
+    {% endfor %}
+
+```
