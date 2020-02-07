@@ -186,3 +186,19 @@ on line 75
     {% endfor %}
 
 ```
+
+---
+
+next up
+
+class based views
+authentication
+Rest API's
+
+deploy
+digital ocean/postgres
+aws
+heroku/postgres
+python
+
+nick@zappycode.com
