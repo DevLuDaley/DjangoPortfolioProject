@@ -189,16 +189,26 @@ on line 75
 
 ---
 
-next up
+    next up
 
-class based views
-authentication
-Rest API's
+    class based views
+    authentication
+    Rest API's
 
-deploy
-digital ocean/postgres
-aws
-heroku/postgres
-python
+    deploy
+    digital ocean/postgres
+    aws
+    heroku/postgres
+    python
 
-nick@zappycode.com
+    nick@zappycode.com
+
+    deployment ideas from python event 2017 video 5 deployment options
+
+    #1
+    NGrok - https://ngrok.com/download + directions
+
+cd into code/practice/practice-python  
+./ngrok authtoken 1XTxsRKP8XyxvaJigX9XFXU2FvK_4dqzLxNRJHBz8A3aoPC85
+
+added 'ngrok url' and 'localhost' to allowed hosts in settings.py
