@@ -6,7 +6,5 @@ class Job(models.Model):
     summary = models.CharField(max_length=200)
    # url = models.CharField(max_length=200, blank=True)
 
-
-# def image_tag(self):
-#    return u'<img src="%s" />' %
-# self.image.url
+    def __str__(self):
+        return self.summary
