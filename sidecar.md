@@ -160,7 +160,7 @@ add load static (at the top) and image tag to home.html we had to load the stati
 
     load up the following
 
-        Bootstrap
+        Bootstrap - https://getbootstrap.com/docs/4.4/getting-started/download/
         Jquery - https://jquery.com/download/
         PopperJs - https://popper.js.org/ couldn't find file had to copy popper.min.js file from node.js pre-existing module
 
