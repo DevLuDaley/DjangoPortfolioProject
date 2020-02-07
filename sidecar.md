@@ -224,3 +224,6 @@ pip install psycopg2
 -no errors
 
 add ['localhost', '127.0.0.1'] to allowed hosts
+
+add .gitignore file
+ignore sidecar.md
