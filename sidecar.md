@@ -212,3 +212,15 @@ cd into code/practice/practice-python
 ./ngrok authtoken 1XTxsRKP8XyxvaJigX9XFXU2FvK_4dqzLxNRJHBz8A3aoPC85
 
 added 'ngrok url' and 'localhost' to allowed hosts in settings.py
+
+        -make sure to /bin/activate env
+
+pip install psycopg2
+-errors
+
+pip install -U pip
+
+pip install psycopg2
+-no errors
+
+add ['localhost', '127.0.0.1'] to allowed hosts
