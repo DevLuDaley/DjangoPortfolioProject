@@ -207,10 +207,12 @@ on line 75
 
     deployment ideas from python event 2017 video 5 deployment options
 
-    #1
-    NGrok - https://ngrok.com/download + directions
+- linkedin Learning's deployment => https://www.linkedin.com/learning/deploying-django-apps-make-your-site-go-live/heroku-account
+  #1
+  NGrok - https://ngrok.com/download + directions
+  -Serveo?
 
-cd into code/practice/practice-python  
+cd into code/practice/practice-python
 ./ngrok authtoken 1XTxsRKP8XyxvaJigX9XFXU2FvK_4dqzLxNRJHBz8A3aoPC85
 
 added 'ngrok url' and 'localhost' to allowed hosts in settings.py
@@ -230,3 +232,9 @@ add ['localhost', '127.0.0.1'] to allowed hosts
 add .gitignore file
 ignore sidecar.md
 ignore sidecar.md
+
+# Setup and install heroku
+
+brew install heroku/brew/heroku
+
+heroku login
