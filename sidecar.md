@@ -273,3 +273,21 @@ heroku open
 heroku ps:scale web=1
 
 heroku run ls -al
+-didn't work
+
+heroku run ls
+-worked
+
+---
+
+    postgresql console commands
+        \l
+        \dt
+        \d jobs
+        \d job
+        \d jobs_job
+        \df
+        \du
+        \s
+
+/Applications/Postgres.app/Contents/Versions/12/bin/psql -p5433 "portfoliodb"
