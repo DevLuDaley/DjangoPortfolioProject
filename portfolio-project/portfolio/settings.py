@@ -82,10 +82,11 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': 'devludaley99',
         'HOST': 'localhost',
-        'PORT': '5433',
+        'PORT': '5432',
     }
 }
-
+DATABASES = {'default': 'dj_database_url.config'(
+    default='postgres://postgres:devludaley99@localhost:5433/portfoliodb')}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
