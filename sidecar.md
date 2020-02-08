@@ -270,3 +270,4 @@ heroku buildpacks:set heroku/python
 heroku buildpacks:clear
 
 heroku open
+heroku ps:scale web=1
