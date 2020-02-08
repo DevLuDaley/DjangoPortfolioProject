@@ -258,3 +258,7 @@ heroku buildpacks:set heroku/python
 git push heroku master
 
 heroku create --buildpack https://github.com/heroku/heroku-buildpack-python.git
+
+git remote add heroku https://git.heroku.com/salty-river-03363.git
+
+git remote set-url heroku https://git.heroku.com/salty-river-03363.git
