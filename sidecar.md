@@ -290,4 +290,14 @@ heroku run ls
         \du
         \s
 
+access pgsql from the command line
+
 /Applications/Postgres.app/Contents/Versions/12/bin/psql -p5433 "portfoliodb"
+
+git push heroku master
+ERROR_MESSAGE =>
+
+        Is the server running on host "localhost" (127.0.0.1) and accepting
+        remote: TCP/IP connections on port 8000?
+
+also heroku run manage.py gives errors...it looks like I'm in the folder above but I can't write the write the route in with a / or cd into the directory containing manage.py.
