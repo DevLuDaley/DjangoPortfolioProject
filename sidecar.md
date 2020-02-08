@@ -271,3 +271,5 @@ heroku buildpacks:clear
 
 heroku open
 heroku ps:scale web=1
+
+heroku run ls -al
