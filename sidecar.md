@@ -268,3 +268,5 @@ git remote -v
 heroku buildpacks:set heroku/python
 
 heroku buildpacks:clear
+
+heroku open
