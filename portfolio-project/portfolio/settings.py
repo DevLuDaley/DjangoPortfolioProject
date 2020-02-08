@@ -26,7 +26,7 @@ SECRET_KEY = 'bg+9_jazz+%!yvv&6nmmmar0qj+z=%g9n(&hd@4p5nq5ma3(+*'
 DEBUG = False
 
 ALLOWED_HOSTS = ['8be036d4.ngrok.io',
-                 'gentle-forest-38414.herokuapp.com', 'localhost', '127.0.0.1']
+                 'gentle-forest-38414.herokuapp.com', 'gentle-forest-38414', 'localhost', '127.0.0.1']
 
 
 # Application definition
