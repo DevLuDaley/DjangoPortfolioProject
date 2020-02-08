@@ -235,6 +235,26 @@ ignore sidecar.md
 
 # Setup and install heroku
 
+(inside of the same folder as 'manage.py')
 brew install heroku/brew/heroku
 
 heroku login
+
+pip install pillow gunicorn
+
+pip freeze > requirements.txt
+
+heroku create
+`Creating app... done, ⬢ gentle-forest-38414 https://gentle-forest-38414.herokuapp.com/ | https://git.heroku.com/gentle-forest-38414.git`
+
+nano Procfile
+
+git push heroku master
+-! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/gentle-forest-38414.git'
+
+heroku buildpacks:set heroku/python
+
+git push heroku master
+
+heroku create --buildpack https://github.com/heroku/heroku-buildpack-python.git
