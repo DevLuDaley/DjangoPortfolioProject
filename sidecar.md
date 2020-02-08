@@ -301,3 +301,5 @@ ERROR_MESSAGE =>
         remote: TCP/IP connections on port 8000?
 
 also heroku run manage.py gives errors...it looks like I'm in the folder above but I can't write the write the route in with a / or cd into the directory containing manage.py.
+
+heroku run prinvenv
