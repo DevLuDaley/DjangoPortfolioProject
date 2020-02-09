@@ -311,3 +311,7 @@ FROM
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')
 To
 os.environ["DJANGO_SETTINGS_MODULE"] = 'portfolio.settings'
+
+from this site => http://docs.gunicorn.org/en/latest/run.html
+gunicorn --env DJANGO_SETTINGS_MODULE=myproject.settings myproject.wsgi
+gunicorn --env DJANGO_SETTINGS_MODULE=portfolio.settings portfolio.wsgi

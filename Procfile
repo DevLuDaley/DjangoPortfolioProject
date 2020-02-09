@@ -1,2 +1,2 @@
 release: python portfolio-project/manage.py migrate
-web: gunicorn portfolio.wsgi --log-file -
+web: gunicorn --env DJANGO_SETTINGS_MODULE=portfolio.settings portfolio.wsgi
