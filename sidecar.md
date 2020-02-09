@@ -305,3 +305,9 @@ also heroku run manage.py gives errors...it looks like I'm in the folder above b
 heroku run prinvenv
 didnt work
 heroku restart
+
+INSIDE OF SETTINGS.PY
+FROM
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')
+To
+os.environ["DJANGO_SETTINGS_MODULE"] = 'portfolio.settings'
