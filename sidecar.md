@@ -315,3 +315,12 @@ os.environ["DJANGO_SETTINGS_MODULE"] = 'portfolio.settings'
 from this site => http://docs.gunicorn.org/en/latest/run.html
 gunicorn --env DJANGO_SETTINGS_MODULE=myproject.settings myproject.wsgi
 gunicorn --env DJANGO_SETTINGS_MODULE=portfolio.settings portfolio.wsgi
+
+▶ heroku ps
+Free dyno hours quota remaining this month: 550h 0m (100%)
+Free dyno usage for this app: 0h 0m (0%)
+For more information on dyno sleeping and how to upgrade, see:
+https://devcenter.heroku.com/articles/dyno-sleeping
+
+=== web (Free): gunicorn portfolio.wsgi --log-file - (1)
+web.1: crashed 2020/02/10 01:08:30 -0500 (~ 1m ago)
