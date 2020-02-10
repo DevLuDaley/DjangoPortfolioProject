@@ -306,7 +306,7 @@ heroku run prinvenv
 didnt work
 heroku restart
 
-INSIDE OF SETTINGS.PY
+INSIDE OF WSGI.PY
 FROM
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio.settings')
 To
